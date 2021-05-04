@@ -1,0 +1,7 @@
+---
+#instalar gninx
+  - name: instalar nginx
+    apt: 
+      name:  nginx 
+      state: present
+...

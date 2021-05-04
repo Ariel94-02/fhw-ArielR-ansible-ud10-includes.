@@ -1,0 +1,5 @@
+---
+#handler parar reiniciar nginx "revisar handlers"
+- name: reiniciar nginx
+  service: name=nginx state=restarted
+...

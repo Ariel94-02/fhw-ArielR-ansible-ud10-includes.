@@ -1,0 +1,6 @@
+---
+
+  #desinstalar apache2
+    - name: desintalar apache2 si existe
+      apt: name=apache2 state=absent
+...
